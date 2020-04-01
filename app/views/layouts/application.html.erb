@@ -10,6 +10,13 @@
   </head>
 
   <body>
+    <div class="nav">
+      <span class="navItem"><h1>
+<%= link_to "Wikinimous", root_path, :style=>'color: #758184; text_decoration: none;' %></h1></span>
+      <span class="navItem"><h1>
+        <%= link_to "New Article", new_article_path%>
+      </h1></span>
+    </div>
     <%= yield %>
   </body>
 </html>

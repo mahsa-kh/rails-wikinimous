@@ -1,0 +1,19 @@
+<div class="subNav">
+  <h3>Article was successfully created.</h3>
+</div>
+
+<div class="title">
+  <div class="sec1">
+  <h3><%= @article.title %></h3>
+  <%= link_to "edit", edit_article_path(@article.id)%>   <%= link_to "delete", article_path(@article.id), method: :delete%>
+  </div>
+
+<div class="sec2">
+  <hr>
+</div>
+
+<div class="sec3">
+  <p><%= @article.content %></p>
+</div>
+
+</div>

@@ -1,0 +1,12 @@
+<h2>Edit the Article</h2>
+
+<%= simple_form_for(@article) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :content %>
+  <%= f.text_area :content %>
+  <%= f.submit %>
+<% end %>
+
+<%= link_to "back", root_path %>
+<%= link_to "show", article_path(@article.id) %>

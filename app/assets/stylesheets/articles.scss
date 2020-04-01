@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;1,700&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+p {
+  font-family: 'Comic Neue', cursive;
+  font-weight: lighter;
+}
+
+.nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 10vh;
+background-color: #dee3e2;
+}
+
+.navItem {
+  margin: 8px;
+  h1 {
+    font-weight: bold;
+    color: #758184;
+    font-family: 'Comic Neue', cursive;
+  }
+}
+
+h2 {
+  font-weight: bold;
+  font-family: 'Comic Neue', cursive;
+    color: #0f4c81;
+
+}
+
+.subNav {
+ background-color: #faf4f4;
+ height: 40px;
+ padding: 4px;
+ margin: 15px;
+ h3 {
+  vertical-align: center;
+  color: #758184;
+ }
+}
+
+.content {
+  background-color: #fcf8f3;
+  height: 40px;
+  padding: 4px;
+  margin: 10px;
+  p{
+    font-family: 'Comic Neue', cursive;
+    font-weight: lighter;
+    text-align: center;
+  }
+}
+
+.title {
+  background-color: #fcf8f3;
+  height: 40px;
+  padding: 4px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+
+  h3{
+    font-weight: bold;
+  font-family: 'Comic Neue', cursive;
+    color: black
+  }
+
+  .sec1 {
+    height: 100px;
+  }
+  .sec3 {
+    flex-grow: 1 1 auto;
+  }
+}
